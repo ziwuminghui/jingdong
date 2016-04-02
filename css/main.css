@@ -1,0 +1,60 @@
+body {
+	width: 100%;
+	font-size: 12px;
+	margin: 0px;
+}
+a {
+	text-decoration: none;
+	display: inline-block;
+	color: #555;
+	font-size: 12px;
+	line-height: inherit;
+}
+a:hover {
+	color: red;
+}
+.header ul{
+	margin:0px;
+
+}
+ul >li{
+	text-decoration: none;
+	display: inline-block;
+}
+.full {
+	width: 100%;
+}
+.1210px {
+	width: 1210px;
+}
+#header {
+	background-color: #F1F1F1;
+}
+.header {
+	height: 30px;
+	width: 1210px;
+	line-height: 30px;
+	margin: 0px auto;
+}
+#header > a:hover{
+	background-color: #000;
+	color: red;
+}
+.header > .left {
+	float: left;
+	clear: both;
+}
+.header >.left:hover {
+	background-color: #fff;
+	border-left:solid 1px #DDD;
+	border-right:solid 1px #DDD;
+}
+.header > .right {
+	float: right;
+	font-size: 12px;
+	padding-top: 0px;
+	display: inline-block;
+}
+.search {
+	border-bottom: solid 3px red;
+}

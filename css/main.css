@@ -8,7 +8,7 @@ a {
     display: inline-block;
     word-break: keep-all;
     color: #555;
-    font-size: 12px/150%;
+    font-size: 12px;
     line-height: inherit;
 }
 a:hover {
@@ -16,8 +16,17 @@ a:hover {
 }
 .header ul{
     margin:0px;
-
 }
+.header li{
+}
+.header li a {
+}
+.left_boder{
+  border-left: solid 1px #DDDDDD;
+  padding: 0px 10px;
+  line-height: 12px;
+}
+
 ul >li{
     text-decoration: none;
     display: inline-block;
@@ -152,6 +161,9 @@ body .w{
   padding: 0 35px;
   border-left: solid 1px #F1F1F1;
 }
+.detail li:first-child .detail_info {
+  border-left: none;
+}
 .detail ul li:first .detail_inro  {
   border-left: none;
   display: inline-block;
@@ -171,38 +183,150 @@ body .w{
   color: #C81623;
   margin-top: 0px;
 }
-.quelity_1{
+.quelitylife .mc{
+  width: 1208px;
+  height: 405px;
+  border-left: solid 1px #F1F1F1;
+}
+.quelitylife .mc >div {
+  float: left;
+}
+.quelitylife .mc a {
+position: relative;
+}
+.quelity_1,.quelity_3{
   width: 404px;
   height: 247px;
   margin-top: 0;
-  background-color:rgb(237, 237, 237);
+  background-color:#F7F7F7;
   position: relative;
 }
-.quelity_1 a{
-  width: 100%;
+.quelity_1 a:first-child,.quelity_3 a:first-child{
+  width: 403px;
   height: 247px;
   display: inline-block;
   position: relative;
   overflow: hidden;
+  border-bottom: solid 1px rgb(237,237,237);
+  border-right:  solid 1px rgb(237,237,237);
 }
-.quelity_1 a>p{  
+.quelity_1 a:nth-child(2),.quelity_1 a:nth-child(3),.quelity_3 a:nth-child(2),.quelity_3 a:nth-child(3){
+  width: 201px;
+  height: 158px;
+  display: inline-block;
+  float: left;
+  border-right: solid 1px rgb(237,237,237);
+  margin-top:-4px;
+
+}
+.quelity_1 a>p,.quelity_3 a>p{  
   width: 363px;
   text-align: center;
   font-size: 20px;
   font-weight: 700;  
-  line-height: 40px;
+  line-height: 41px;
   border-bottom: dashed 1px rgb(224,224,224);
   margin: 0 auto;
+  z-index: 1;
+}
+.quelity_2 {
+  width: 228px;
+  height: 247px;
+  position: relative;
+  border-right: solid 1px rgb(237,237,237);
+}
+.quelity_2 >a{
+  float: left;
+}
+.quelity_2 a:first-child {
+  width: 228px;
+  height:247px;
+  border-bottom: solid 1px rgb(237,237,237);
+}
+.quelity_2 a:nth-child(2){
+  width: 228px;
+  height: 157px;
+  border-right: solid 1px rgb(237,237,237);
+
+}
+.quelity_2 a>p{
+  width: 188px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;  
+  line-height: 41px;
+  border-bottom: dashed 1px rgb(224,224,224);
+  margin: 0 auto;
+  z-index: 1;
 }
 .sub_tit {
   position: absolute;
   left: 40px;
-  top:80px;
   z-index: 1;
+  margin: auto 10px;
 }
-.quelity_1 img {
+.quelity_1 img ,.quelity_3 img {
   position: absolute;
   bottom: 0px;
   overflow: hidden;
   z-index:0;
+}
+.noover {
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  z-index: 0;
+  border-bottom: solid 1px rgb(237,237,237);
+}
+.quelity_4 {
+  position: relative;
+  width: 171px;
+}
+.quelity_4 .left {
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+  float: left;
+  width: 82px;
+  height: 381px;
+  text-align: right;
+  margin-top: 10px;
+  border-right: dashed 1px rgb(237,237,237);
+}
+.quelity_4 .right {
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+  width: 82px;
+  height: 381px;
+  margin-top: 10px;
+  text-align: left;
+}
+.quelity_4 ul {
+  width: 74px;
+  display: block;
+  padding: 0px;
+  margin-top: -10px;
+  margin-bottom: 0px;
+}
+.quelity_4 .left .leftlist {
+  float: right;
+
+}
+.quelity_4 .rightlist {
+  float: left;
+
+}
+.quelity_4 ul>li {
+  display: block;
+  width: 74px;
+  height: 57px;
+  margin-right: 0px;
+  overflow: hidden;
+}
+.quelity_4 .underline_dash{
+  border-bottom:dashed 1px rgb(224,224,224); 
+}
+.pic_3 {
+  height: 110px;
 }

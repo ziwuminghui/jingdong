@@ -328,5 +328,15 @@ position: relative;
   border-bottom:dashed 1px rgb(224,224,224); 
 }
 .pic_3 {
+  width: 1200px;
   height: 110px;
+  margin: 20px auto;
+}
+.pic_3 a{
+  font-size: 0px;
+  float: left;
+  clear: right;
+}
+.pic_3 img{
+  width: 400px;
 }

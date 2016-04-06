@@ -138,10 +138,10 @@ body .w{
 }
 .mc{
   border: solid 1px #F1F1F1;
-  height: 233px;
 }
 
 .detail {
+  height: 222px;
   margin: 0px;
   padding: 20px 0px 0px 0px;
   clear: both;
@@ -339,4 +339,47 @@ position: relative;
 }
 .pic_3 img{
   width: 400px;
+}
+
+.mt {
+  width: 1210px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+.left_widly{
+  width: 330px;
+  position: relative;
+}
+.right_widly{
+  width: 880px;
+}
+.left_narrow{
+  width: 210px;
+  position: relative;
+}
+.right_narrow {
+  width: 1100px;
+}
+.detail_4 {
+  width: 220px;
+  height: 237px;
+  float: left;
+  clear: right;
+  overflow: hidden;
+  border-right: solid 1px #F1F1F1;
+  border-bottom: solid 1px #F1F1F1;
+}
+.detail_5{
+  width: 200px;
+  height: 237px;
+  float: left;
+  clear: right;
+  overflow: hidden;
+  border-right: solid 1px #F1F1F1;
+  border-bottom: solid 1px #F1F1F1;
 }
